@@ -283,7 +283,7 @@ sap.ui.define([], function () {
         return this.updateWorkflowInstance(instanceId, "RUNNING");
     }
 
-    WFDataProvider.prototype. estartWorkflowInstanceWithCallback = function (instanceId, callback, error) {
+    WFDataProvider.prototype.restartWorkflowInstanceWithCallback = function (instanceId, callback, error) {
         this.restartWorkflowInstance(
             instanceId
         ).then((result) => {
